@@ -1,6 +1,6 @@
 def prime?(integer)
   divisible_range = (2..integer -1).to_a 
-  if integer == 2 
+  if integer == 2 || integer == 3 
     return true 
   elsif integer <= 1 
   return false 
