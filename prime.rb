@@ -4,6 +4,8 @@ def prime?(integer)
   divisible_range.any? do |divider|
     if integer % divider == 0 
       return false 
+    else 
+      return true 
     end 
   end 
 end 
